@@ -91,7 +91,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
-| `supplier-found`, per supplier returned | $0.01 | $0.0095 | $0.009 | $0.0085 |
+| `supplier-found`, per supplier returned | $0.025 | $0.02375 | $0.0225 | $0.02125 |
 | `apify-actor-start`, per run start | $0.001 | $0.001 | $0.001 | $0.001 |
 | Website check by the classifier (`domain-classified`), per site checked | $0.0045 | $0.004275 | $0.00405 | $0.003825 |
 | Classifier start (`apify-actor-start`), per run | $0.0005 | $0.0005 | $0.0005 | $0.0005 |
