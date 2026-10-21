@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-manufacturer-supplier-finder",
+  "version": "1.0.0",
+  "description": "MCP server for Manufacturer and Supplier Finder. Find manufacturers, wholesalers, and distributors for any product in 20 countries, each checked on its own website, with quoted evidence, domain, and a confidence score. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-manufacturer-supplier-finder": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "manufacturers",
+    "suppliers",
+    "wholesale",
+    "distributors",
+    "sourcing",
+    "apify",
+    "clay",
+    "lead-generation"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/manufacturer-supplier-finder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-manufacturer-supplier-finder"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-manufacturer-supplier-finder"
+}

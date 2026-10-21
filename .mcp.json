@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-manufacturer-supplier-finder": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-manufacturer-supplier-finder"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
