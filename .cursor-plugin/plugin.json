@@ -1,7 +1,7 @@
 {
   "name": "mcp-manufacturer-supplier-finder",
   "displayName": "Manufacturer and Supplier Finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Manufacturer and Supplier Finder. Find manufacturers, wholesalers, and distributors for any product in 20 countries, each checked on its own website, with quoted evidence, domain, and a confidence score. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs",
